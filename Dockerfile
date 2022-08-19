@@ -1,4 +1,4 @@
-FROM openjdk:11-slim as build
+FROM openjdk:8
 MAINTAINER nilkamal
 EXPOSE 8000
 COPY target/EmployeeService-0.0.1-SNAPSHOT.jar EmployeeService-0.0.1-SNAPSHOT.jar

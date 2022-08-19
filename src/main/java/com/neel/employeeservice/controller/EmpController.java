@@ -21,5 +21,10 @@ public class EmpController {
 	public List<Emp> getEmployees(){
 		return empRepository.findAll(); 
 	}
+	
+	@GetMapping("test")
+	public String demo() {
+		return "Hello...!!";
+	}
 
 }
